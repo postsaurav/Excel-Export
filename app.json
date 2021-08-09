@@ -1,0 +1,30 @@
+{
+  "id": "ff834221-1e44-445a-a8ae-996ceb50a40b",
+  "name": "Excel Export",
+  "publisher": "Saurav Dhyani",
+  "brief": "This is a code sample to Export Data to Excel From #msdyn365bc.",
+  "description": "",
+  "version": "1.0.0.0",
+  "runtime": "7.0",
+  "privacyStatement": "https://www.sauravdhyani.com/",
+  "EULA": "https://www.sauravdhyani.com/",
+  "help": "https://www.sauravdhyani.com/contact/",
+  "contextSensitiveHelpUrl": "https://www.sauravdhyani.com/",
+  "url": "https://www.sauravdhyani.com/",
+  "logo": "image/sauravdhyani.png",
+  "dependencies": [
+  ],
+  "screenshots": [],
+  "platform": "18.0.0.0",
+  "application": "18.0.0.0",
+  "idRanges": [
+    {
+      "from": 50000,
+      "to": 99999
+    }
+  ],
+  "features": [
+    "TranslationFile"
+  ],
+  "showMyCode": true
+}

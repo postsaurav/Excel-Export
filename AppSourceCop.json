@@ -1,0 +1,5 @@
+{
+    "mandatoryAffixes": ["SDH"],
+    "mandatoryPrefix": "SDH",
+    "supportedCountries": ["US"]
+}
