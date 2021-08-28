@@ -1,4 +1,4 @@
-report 90000 "SDH Export Item To Excel"
+report 90000 "SDH Export Single Sheet"
 {
     UsageCategory = ReportsAndAnalysis;
     ApplicationArea = All;
@@ -9,6 +9,7 @@ report 90000 "SDH Export Item To Excel"
     {
         dataitem(Item; Item)
         {
+            DataItemTableView = SORTING("No.") ORDER(Ascending);
             trigger OnPreDataItem()
             begin
                 Item.SetAutoCalcFields(Inventory);

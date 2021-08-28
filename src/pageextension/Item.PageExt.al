@@ -14,7 +14,7 @@ pageextension 90000 "SDH Item" extends "Item List"
                 Image = Excel;
                 trigger OnAction()
                 var
-                    ExportExcel: Report "SDH Export Item To Excel";
+                    ExportExcel: Report "SDH Export Single Sheet";
                 begin
                     ExportExcel.RunModal();
                 end;
