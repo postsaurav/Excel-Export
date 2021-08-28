@@ -1,4 +1,4 @@
-report 90000 "SDH Export Item To Excel"
+report 90000 "SDH Export Single Sheet"
 {
     UsageCategory = ReportsAndAnalysis;
     ApplicationArea = All;
