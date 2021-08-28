@@ -9,6 +9,7 @@ report 90000 "SDH Export Single Sheet"
     {
         dataitem(Item; Item)
         {
+            DataItemTableView = SORTING("No.") ORDER(Ascending);
             trigger OnPreDataItem()
             begin
                 Item.SetAutoCalcFields(Inventory);
